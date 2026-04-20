@@ -51,6 +51,15 @@ if [[ ! -d "$PROJECT_DIR" ]]; then
 fi
 
 cd "$PROJECT_DIR"
+if [[ -f ".env" ]]; then
+    echo"✅ .env déjà existant, étape ignorée"
+else [[ -f ".env.example" ]]; then
+    cp .env.example .env
+    echo "✅ .env créé depuis .env.example."
+else
+    echo "⚠️  .env.example introuvable — étape ignorée."
+fi
+
 npm install
 echo "✅ npm install complete."
 
