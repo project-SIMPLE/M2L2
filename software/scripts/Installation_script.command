@@ -40,7 +40,19 @@ fi
 
 echo ""
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo "  📦  Step 3: Running npm install"
+echo "  🟢  Step 3: Installing adb tools"
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+
+if command -v adb &>/dev/null; then
+    echo "adb is already installed ($(adb version))."
+else
+    brew install --cask android-platform-tools
+    echo "✅ adb installed successfully ($(adb version))."
+fi
+
+echo ""
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo "  📦  Step 4: Running npm install"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
 if [[ ! -d "$PROJECT_DIR" ]]; then
@@ -49,6 +61,13 @@ if [[ ! -d "$PROJECT_DIR" ]]; then
     echo "   Please make sure the folder exists and try again."
     exit 1
 fi
+
+
+
+echo ""
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo "  📦  Step 5: intializing .env file"
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
 cd "$PROJECT_DIR"
 if [[ -f ".env" ]]; then
