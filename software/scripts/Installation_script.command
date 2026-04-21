@@ -84,7 +84,7 @@ echo "✅ npm install complete."
 
 echo ""
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo "  🚀  Step 4: Starting the app (npm start)"
+echo "  🚀  Step 6: Starting the app (npm start)"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
 npm start
