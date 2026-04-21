@@ -1,6 +1,6 @@
 # Using the installation script: instructions
 
-## NOTE: Before running this script, make sure you have downloaded the webplatform available [here](https://github.com/project-SIMPLE/simple.webplatform/archive/refs/heads/main.zip) and have placed it in the folder ~/Documents
+## NOTE: Before running this script, make sure you have downloaded the webplatform available [here](https://github.com/project-SIMPLE/simple.webplatform/archive/refs/heads/main.zip) and have placed it in the folder ~/Documents so the full adress of the web platform is ~/Documents/simple.webplatform
 
 ### To automate the installation of all the dependencies and the setup of the web platform, the script "Installation_script.command" was created.
 
