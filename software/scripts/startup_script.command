@@ -1,4 +1,4 @@
-# READ THE INSTRUCTIONS FIRST
-#!/bin/bash
-cd path/to/application
-/usr/local/bin/npm start
+PATH = /usr/local/bin:$PATH
+cd ~/Documents/simple.webplatform
+
+npm start
