@@ -52,8 +52,8 @@ fi
 
 cd "$PROJECT_DIR"
 if [[ -f ".env" ]]; then
-    echo"✅ .env déjà existant, étape ignorée"
-else [[ -f ".env.example" ]]; then
+    echo "✅ .env déjà existant, étape ignorée"
+elif [[ -f ".env.example" ]]; then
     cp .env.example .env
     echo "✅ .env créé depuis .env.example."
 else
