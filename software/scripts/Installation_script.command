@@ -77,6 +77,8 @@ if [[ ! -d "$PROJECT_DIR" ]]; then
     exit 1
 fi
 
+npm install
+echo "✅ npm install complete."
 
 
 echo ""
@@ -94,8 +96,7 @@ else
     echo "⚠️  couldn't find .env.example, skipping..."
 fi
 
-npm install
-echo "✅ npm install complete."
+
 
 echo ""
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
