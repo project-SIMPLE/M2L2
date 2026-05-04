@@ -88,7 +88,7 @@ echo "  📦  Step 6: intializing .env file"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
 if [[ -f ".env" ]]; then
-    echo "✅ .env already existing, skipping...
+    echo "✅ .env already existing, skipping..."
 elif [[ -f ".env.example" ]]; then
     cp .env.example .env
     echo "✅ .env initialized from .env.example file"
@@ -104,5 +104,5 @@ echo "  🚀  Step 7: Starting the app (npm start)"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 cd ~/Documents/simple.webplatform
 npm start &
-
+sleep 3
 open -a Safari http://localhost:8000
