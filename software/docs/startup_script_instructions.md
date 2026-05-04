@@ -14,4 +14,8 @@ Save the file, then click on the Apple logo on the top left, then system setting
 
 Finally, click on the "+" on the bottom left of the table, then select the app you just created. 
 
-The next time you boot up your computer after completing these steps, a pop up will appear to inform you that login items have been added. Safari should automatically open the web platform page
+The next time you boot up your computer after completing these steps, a pop up will appear to inform you that login items have been added.
+
+The automator application will ask you permission for accessing local files, and discovering devices on your network. Click ok for both
+
+ Safari should automatically open the web platform page
