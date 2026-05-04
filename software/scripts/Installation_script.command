@@ -71,12 +71,12 @@ echo "━━━━━━━━━━━━━━━━━━━━━━━━�
 
 cd "$PROJECT_DIR"
 if [[ -f ".env" ]]; then
-    echo "✅ .env déjà existant, étape ignorée"
+    echo "✅ .env already existing, skipping...
 elif [[ -f ".env.example" ]]; then
     cp .env.example .env
-    echo "✅ .env créé depuis .env.example."
+    echo "✅ .env initialized from .env.example file"
 else
-    echo "⚠️  .env.example introuvable — étape ignorée."
+    echo "⚠️  couldn't find .env.example, skipping..."
 fi
 
 npm install
