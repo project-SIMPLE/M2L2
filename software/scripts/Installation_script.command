@@ -67,7 +67,7 @@ fi
 
 echo ""
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo "  📦  Step 4: Running npm install"
+echo "  📦  Step 5: Running npm install"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
 if [[ ! -d "$PROJECT_DIR" ]]; then
@@ -81,7 +81,7 @@ fi
 
 echo ""
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo "  📦  Step 5: intializing .env file"
+echo "  📦  Step 6: intializing .env file"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
 cd "$PROJECT_DIR"
@@ -99,7 +99,7 @@ echo "✅ npm install complete."
 
 echo ""
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo "  🚀  Step 6: Starting the app (npm start)"
+echo "  🚀  Step 7: Starting the app (npm start)"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
 npm start
