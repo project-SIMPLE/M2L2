@@ -50,14 +50,17 @@ else
     echo "✅ adb installed successfully ($(adb version))."
 fi
 
-
-read -r -p "Do you want to install gama ? (y/n) : " CONFIRM
+echo ""
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo "  🟢  Step 4(optionnal): Installing GAMA"
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+read -r -p "Do you want to install GAMA ? (y/n) : " CONFIRM
 
 if [[ "$CONFIRM" =~ ^[yY]$ ]]; then
     brew install gama-jdk
-    echo "✅ Gama installed sucessfully"
+    echo "✅ GAMA installed sucessfully"
 else
-    echo "⏭️  Skipped installation of Gama"
+    echo "⏭️  Skipped installation of GAMA"
 fi
 
 
