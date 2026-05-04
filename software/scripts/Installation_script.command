@@ -77,6 +77,7 @@ if [[ ! -d "$PROJECT_DIR" ]]; then
     exit 1
 fi
 
+cd "$PROJECT_DIR"
 npm install
 echo "✅ npm install complete."
 
@@ -86,7 +87,6 @@ echo "━━━━━━━━━━━━━━━━━━━━━━━━�
 echo "  📦  Step 6: intializing .env file"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
-cd "$PROJECT_DIR"
 if [[ -f ".env" ]]; then
     echo "✅ .env already existing, skipping...
 elif [[ -f ".env.example" ]]; then
@@ -102,7 +102,7 @@ echo ""
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo "  🚀  Step 7: Starting the app (npm start)"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-
+cd ~/Documents/simple.webplatform
 npm start &
 
 open -a Safari http://localhost:8000
