@@ -2,8 +2,8 @@
 
 # ─────────────────────────────────────────
 #  setup.command
-#  Installs Homebrew → Node.js → runs the app
 # ─────────────────────────────────────────
+#  Installs Homebrew → Node.js → Gama (optionnal) → runs the app
 
 set -e  # Exit immediately if any command fails
 
@@ -49,6 +49,18 @@ else
     brew install --cask android-platform-tools
     echo "✅ adb installed successfully ($(adb version))."
 fi
+
+
+read -r -p "Do you want to install gama ? (y/n) : " CONFIRM
+
+if [[ "$CONFIRM" =~ ^[yY]$ ]]; then
+    brew install gama-jdk
+    echo "✅ Gama installed sucessfully"
+else
+    echo "⏭️  Skipped installation of Gama"
+fi
+
+
 
 echo ""
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
