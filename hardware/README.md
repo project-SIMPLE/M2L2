@@ -1,22 +1,21 @@
-# 🔧 Hardware — M2L2 Box
+# Hardware — M2L2 Box
 
 This folder contains all the hardware documentation required to build, replicate, or maintain the **M2L2** box — a self-contained unit housing VR headsets and a server, designed for easy deployment of the [SIMPLE project](https://github.com/project-simple) in classroom environments.
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 hardware/
-├── blueprints/        # CAD files, schematics, and mechanical drawings
-├── bom/               # Bill of Materials (BOM)
-├── assembly/          # Step-by-step assembly guides and photos
-└── specs/             # Technical specifications for each component
+├── blueprints/ # Cabinet drawings and mechanical plans
+├── bom/ # Bill of Materials (BOM)
+└── assembly/ # Step-by-step assembly guide
 ```
 
 ---
 
-## 📦 What's in the Box
+## What's in the Box
 
 The M2L2 box is designed to be a plug-and-play classroom kit. It typically includes:
 
@@ -30,19 +29,15 @@ The M2L2 box is designed to be a plug-and-play classroom kit. It typically inclu
 
 ---
 
-## 📐 Blueprints
+## Blueprints
 
-The [`blueprints/`](./blueprints/) directory contains:
+The [`blueprints/`](./blueprints/) directory contains the cabinet drawings and mechanical plans (dimensions, cutouts, internal layout):
 
-- Enclosure mechanical drawings (dimensions, cutouts, ventilation)
-- Internal layout diagrams (component placement)
-- Cable routing schematics
-
-Files are provided in open formats (`.svg`, `.dxf`, `.step`) where possible.
+- `Wooden Cabinet Blueprint.pdf`
 
 ---
 
-## 🛒 Bill of Materials (BOM)
+## Bill of Materials (BOM)
 
 See [`bom/`](./bom/) for the full parts list including:
 
@@ -53,13 +48,13 @@ See [`bom/`](./bom/) for the full parts list including:
 
 ---
 
-## 🔩 Assembly
+## Assembly
 
-Step-by-step assembly instructions are available in [`assembly/`](./assembly/). Follow them in order to avoid rework. Photos and diagrams are included for each major step.
+Step-by-step assembly instructions are in [`assembly/`](./assembly/README.md). The guide covers headset preparation, cabinet preparation, and the internal power/network/display wiring. Follow the sections in order to avoid rework.
 
 ---
 
-## ⚠️ Notes
+## Notes
 
 - Always power off the unit before performing any hardware maintenance.
 - Ensure adequate ventilation around the Mac Mini to prevent thermal throttling.
@@ -67,6 +62,6 @@ Step-by-step assembly instructions are available in [`assembly/`](./assembly/). 
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 If you improve the hardware design (better cable management, new enclosure version, etc.), please open a pull request with updated blueprints and a revised BOM. See the root [CONTRIBUTING.md](../CONTRIBUTING.md) for guidelines.

@@ -35,7 +35,7 @@ Complete parts list to build one **M2L2 (Mobile Metaverse Learning Lab)** unit: 
 | # | Item | Ref / Model | Qty | Est. unit price | Subtotal | Notes |
 |---|------|------------|-----|----------------|----------|-------|
 | 4.1 | USB-C hub | HyperDrive Next Dual 4K HDMI 7-in-1 | 1 | $150 | $150 | Used for its dual HDMI outputs (4K60 + 4K30) and its USB-A port, which connects the UPS USB-HID monitoring link to the Mac mini. |
-| 4.2 | HDMI cables | UGREEN 10107 — HDMI, 2m | 2 | $10 | $20 | Internal runs: hub HDMI outputs → enclosure panel couplers (4.3). |
+| 4.2 | HDMI cables | UGREEN 10107 — HDMI, 2m | 2 | $10 | $20 | Internal runs: hub HDMI outputs enclosure panel couplers (4.3). |
 | 4.3 | Keyboard + touchpad | Logitech K400 Plus Touch | 1 | $30 | $30 | Wireless all-in-one input for on-site Mac mini administration — no separate mouse or desk space needed. |
 
 ### 5. Enclosure & Mechanical
@@ -52,7 +52,7 @@ Complete parts list to build one **M2L2 (Mobile Metaverse Learning Lab)** unit: 
 |---|------|------------|-----|----------------|----------|-------|
 | 6.1 | Hygiene face covers | Silicone facial interface cover (Quest 3 compatible) | 6 | $15 | $90 | Wipeable — required for shared classroom use. |
 | 6.2 | Cleaning kit | Microfiber cloths + lens-safe wipes | 1 | $15 | $15 | Never use alcohol wipes on lenses. |
-| 6.3 | Stickers | Custom-printed SIMPLE project stickers, numbered 1–6 | 1 set | $15 | $15 | Printed per project artwork. Headset number ↔ WebPlatform device identity; label headsets, controllers, and docks consistently. |
+| 6.3 | Stickers | Custom-printed SIMPLE project stickers, numbered 1–6 | 1 set | $15 | $15 | Printed per project artwork. Headset number WebPlatform device identity; label headsets, controllers, and docks consistently. |
 
 ---
 
