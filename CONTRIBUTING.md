@@ -4,7 +4,7 @@ Thank you for your interest in contributing to the SIMPLE project! Whether you'r
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Code of Conduct](#code-of-conduct)
 - [How to Contribute](#how-to-contribute)
@@ -15,13 +15,13 @@ Thank you for your interest in contributing to the SIMPLE project! Whether you'r
 
 ---
 
-## 🤝 Code of Conduct
+## Code of Conduct
 
 Be respectful, inclusive, and constructive. We want this project to be a welcoming space for everyone.
 
 ---
 
-## 🛠️ How to Contribute
+## How to Contribute
 
 1. **Fork** this repository
 2. **Create a branch** from `main` with a descriptive name:
@@ -35,7 +35,7 @@ Be respectful, inclusive, and constructive. We want this project to be a welcomi
 
 ---
 
-## 🐛 Reporting Issues
+## Reporting Issues
 
 Open a [GitHub Issue](../../issues) and include:
 
@@ -46,7 +46,7 @@ Open a [GitHub Issue](../../issues) and include:
 
 ---
 
-## ✅ Submitting a Pull Request
+## Submitting a Pull Request
 
 - Keep PRs focused — one fix or feature per PR
 - Link the related issue in your PR description (e.g. `Closes #42`)
@@ -66,7 +66,7 @@ docs: update assembly guide with photos
 
 ---
 
-## 🔩 Hardware Contributions
+## Hardware Contributions
 
 When contributing hardware changes, please:
 
@@ -77,7 +77,7 @@ When contributing hardware changes, please:
 
 ---
 
-## 💻 Software Contributions
+## Software Contributions
 
 When contributing setup scripts or configuration changes, please:
 
@@ -88,6 +88,6 @@ When contributing setup scripts or configuration changes, please:
 
 ---
 
-## 📄 License
+## License
 
 By contributing, you agree that your contributions will be licensed under the same license as this project. See [LICENSE](./LICENSE) for details.

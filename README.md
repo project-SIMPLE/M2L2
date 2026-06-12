@@ -4,12 +4,12 @@
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 m2l2/
-├── hardware/   # Blueprints, BOM, assembly guides, and component specs
-└── software/   # Mac Mini setup and configuration tools (zsh scripts, etc.)
+├── hardware/ # Blueprints, BOM, assembly guides, and component specs
+└── software/ # Mac Mini setup and configuration tools (zsh scripts, etc.)
 ```
 
 - **[hardware/](./hardware/)** — Everything you need to build or replicate the physical M2L2 box.
@@ -17,7 +17,7 @@ m2l2/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 1. **Build the box** — Follow the [hardware guide](./hardware/README.md) to assemble your M2L2 unit.
 2. **Set up the server** — Use the [software setup tools](./software/README.md) to configure the Mac Mini.
@@ -25,12 +25,12 @@ m2l2/
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request. See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
 
 ---
 
-## 📄 License
+## License
 
 This project is open-source. See [LICENSE](./LICENSE) for details.
