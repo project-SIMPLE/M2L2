@@ -35,6 +35,8 @@ The [`blueprints/`](./blueprints/) directory contains the cabinet drawings and m
 
 - `Wooden Cabinet Blueprint.pdf`
 
+> The latest M2L2 enclosure was designed and built by [Legacy Handmade](https://www.legacytayho.com/).
+
 ---
 
 ## Bill of Materials (BOM)
