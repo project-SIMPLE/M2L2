@@ -1,14 +1,20 @@
 id,category,item,model,qty,unit_price,currency,subtotal_usd_approx,notes
 1.1,Compute & VR,VR headset,Meta Quest 3 512GB,6,600,USD,3600,Includes 2x Touch Plus controllers each; 512GB only variant since April 2026
-1.2,Compute & VR,Server,Apple Mac mini (Apple Silicon; 16GB RAM / 512GB SSD min.),1,799,USD,799,Runs WebPlatform + GAMA + headset management; pin macOS version per software setup guide
+1.2,Compute & VR,Head strap (battery),BOBOVR M3 Pro,6,40,USD,240,Halo strap with swappable B100 battery; Carina D1 charges headset with strap mounted but not the strap battery
+1.3,Compute & VR,Server,Apple Mac mini (Apple Silicon; 16GB RAM / 512GB SSD min.),1,799,USD,799,Runs WebPlatform + GAMA + headset management; pin macOS version per software setup guide
+1.4,Compute & VR,Teacher tablet,Apple iPad (current base model; WiFi),1,349,USD,349,Client for the teacher dashboard over local network
 2.1,Power,UPS,APC Back-UPS BX2200MI-MS (2200VA / 1200W),1,250,USD,250,USB-HID monitored for graceful shutdown; -MS = universal sockets
 2.2,Power,Charging dock,PrismXR Carina D1 (Quest 3),6,80,USD,480,One dock per headset @30W; own adapter + cable included; charges controllers via contact pads (rechargeable batteries included)
 2.3,Power,Power strip,Dien Quang ECO DQ ESK 5BR 8ECO (8 outlets; 5m; 2500W; breaker),1,192000,VND,8,Plugs into UPS battery outlets; covers all dock adapters + Mac mini + router; no surge protector behind UPS
 2.4,Power,USB-C cables,UGREEN US535 90440 (USB-C to USB-C; 240W; 2m),6,13,USD,78,ADB/management + backup wired charging; replacement must support >=45W (headset max)
 3.1,Networking,WiFi router,TP-Link Deco BE25 (WiFi 7),1,95,USD,95,Dedicated SSID for headsets; fully offline LAN; Ethernet cable included in box
-4.1,Enclosure & Mechanical,Enclosure,Custom build - see blueprints/,1,,,,Materials and plans documented in blueprints folder; kit weight >25kg
-4.2,Enclosure & Mechanical,Cable management,Velcro straps + cable ties + adhesive mounts,1,15,USD,15,
-5.1,Accessories & Consumables,Hygiene face covers,Silicone facial interface cover (Quest 3 compatible),6,15,USD,90,Wipeable; required for shared classroom use
-5.2,Accessories & Consumables,Cleaning kit,Microfiber cloths + lens-safe wipes,1,15,USD,15,No alcohol wipes on lenses
-5.3,Accessories & Consumables,Stickers,Custom-printed SIMPLE project stickers numbered 1-6,1,15,USD,15,Headset number maps to WebPlatform device identity; label headsets/controllers/docks
-TOTAL,,,,,,,5445,Approx USD mid-2026 excluding custom enclosure materials; verify regional pricing
+4.1,Peripherals & Display,USB-C hub,HyperDrive Next Dual 4K HDMI 7-in-1,1,150,USD,150,Used for dual HDMI outputs (4K60 + 4K30) and USB-A port connecting the UPS USB-HID monitoring link to the Mac mini
+4.2,Peripherals & Display,HDMI cables,UGREEN 10107 (HDMI; 2m),2,10,USD,20,Internal runs: hub HDMI outputs to enclosure panel couplers (4.3)
+4.3,Peripherals & Display,Keyboard + touchpad,Logitech K400 Plus Touch,1,30,USD,30,Wireless all-in-one input for on-site Mac mini administration
+5.1,Enclosure & Mechanical,Enclosure,Custom build - see blueprints/,1,,,,Materials and plans documented in blueprints folder; kit weight >25kg
+5.2,Enclosure & Mechanical,Cable management,Velcro straps + cable ties + adhesive mounts,1,15,USD,15,
+5.3,Peripherals & Display,Panel-mount plate,3-slot wall-mount plate with 2x HDMI female (F/F) couplers,1,12,USD,12,Mounted on enclosure; exposes both HDMI outputs externally; third slot spare
+6.1,Accessories & Consumables,Hygiene face covers,Silicone facial interface cover (Quest 3 compatible),6,15,USD,90,Wipeable; required for shared classroom use
+6.2,Accessories & Consumables,Cleaning kit,Microfiber cloths + lens-safe wipes,1,15,USD,15,No alcohol wipes on lenses
+6.3,Accessories & Consumables,Stickers,Custom-printed SIMPLE project stickers numbered 1-6,1,15,USD,15,Headset number maps to WebPlatform device identity; label headsets/controllers/docks
+TOTAL,,,,,,,6246,Approx USD mid-2026 excluding custom enclosure materials; verify regional pricing
