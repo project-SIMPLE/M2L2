@@ -31,6 +31,12 @@ Contributions are welcome! Please open an issue or submit a pull request. See [C
 
 ---
 
+## Acknowledgments
+
+The latest iteration of the M2L2 enclosure was designed and built by [Legacy Handmade](https://www.legacytayho.com/).
+
+---
+
 ## License
 
 This project is open-source. See [LICENSE](./LICENSE) for details.
