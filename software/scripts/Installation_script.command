@@ -12,7 +12,8 @@ PROJECT_DIR="$HOME/Documents/simple.webplatform"
 echo "Welcome in the SIMPLE's webplatform installation tools."
 echo "This script will all the necessary for you to be able to run games developed with the SIMPLE toolkit."
 echo ""
-read -r -p  "Where do you want to install the webplatform? (default: \"$PROJECT_DIR\"): " PROJECT_DIR
+read -r -p  "Where do you want to install the webplatform? (default: \"$PROJECT_DIR\"): "  input
+PROJECT_DIR="${input:-$PROJECT_DIR}"
 
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo "  🍺  Step 1: Installing Homebrew"
@@ -42,6 +43,7 @@ echo "━━━━━━━━━━━━━━━━━━━━━━━━�
 echo "  🍺  Step 1.2: Updating Homebrew"
 echo "This ensure to get the latest version of all the applications to install"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+
 brew update
 
 echo ""
@@ -171,6 +173,6 @@ read -r -n 1 -p "Do you want to start the webplatform now? (y/N): " CONFIRM_RUN
 echo ""
 
 if [[ "$CONFIRM_RUN" =~ ^[yY]$ ]]; then
-    cd "PROJECT_DIR" && npm start &
+    cd "$PROJECT_DIR" && npm start &
     sleep 3 && open -a Safari http://localhost:8000
 fi
