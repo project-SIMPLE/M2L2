@@ -105,7 +105,7 @@ if [[ "$CONFIRM" =~ ^[yY]$ ]]; then
             echo "Installing SIMPLE plugin ━━━━━━━━━━━━━━━"
 
             # Install SIMPLE plugin
-            cd /Applications/Gama.app/Eclipse/dropins
+            cd /Applications/Gama.app/Contents/Eclipse/dropins/
             packageVersion=$(curl -q https://raw.githubusercontent.com/project-SIMPLE/simple.toolchain/refs/heads/p2-deploy/updates/2.x/2.0.x/compositeArtifacts.xml | tail -n 3 | head -n 1 | cut -d "'" -f 2 | cut -d '/' -f 5)
             curl -L -O https://github.com/project-SIMPLE/simple.toolchain/raw/refs/heads/p2-deploy/releases/$packageVersion/plugins/gaml.extension.unity_$packageVersion.jar
             curl -L -O https://github.com/project-SIMPLE/simple.toolchain/raw/refs/heads/p2-deploy/releases/$packageVersion/features/gaml.feature.unity_$packageVersion.jar
