@@ -2,6 +2,8 @@
 
 **Mobile Metaverse Learning Lab (M2L2)** is an open-source, self-contained box housing VR headsets and a server, designed to make deploying immersive learning experiences in classrooms as simple as possible.
 
+![Blueprint view](./hardware/blueprints/Wooden Cabinet Blueprint.webp)
+
 ---
 
 ## Repository Structure

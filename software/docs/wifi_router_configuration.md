@@ -41,7 +41,7 @@ Keep the Deco's default subnet, `192.168.68.0/24`, and its default gateway `192.
 
 The headsets get **static IPs** by sticker color — see the [color-to-IP mapping](./headset_configuration.md#4-connect-to-wifi-and-assign-ip-addresses). DHCP will not assign these automatically; set each one manually, either on the headset (recommended) or as a DHCP reservation in the Deco app. The Mac mini's `192.168.68.50` is only needed for GAMA games — see [Mac mini configuration](./macmini_configuration.md#5-static-ip-address-gama-only). If you change the subnet here, update every device address to match.
 
-> The [firmware update guide](./BE25_firmware_update.md) reaches the router's admin page at `192.168.68.101`, which collides with the first (blue) headset's static IP. Two devices cannot share one address on the same subnet — confirm the router's actual management IP for your unit (the Deco default gateway is `192.168.68.1`) and reassign whichever device conflicts before going live. <!-- TODO: verify the router admin IP against the deployed unit -->.
+> The [firmware update guide](./BE25_firmware_update.md) reaches the router's admin page at `192.168.68.1`, which collides with the first (blue) headset's static IP. Two devices cannot share one address on the same subnet — confirm the router's actual management IP for your unit (the Deco default gateway is `192.168.68.1`) and reassign whichever device conflicts before going live.
 
 ---
 

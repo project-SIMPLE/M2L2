@@ -2,6 +2,8 @@
 
 This folder contains all the hardware documentation required to build, replicate, or maintain the **M2L2** box — a self-contained unit housing VR headsets and a server, designed for easy deployment of the [SIMPLE project](https://github.com/project-simple) in classroom environments.
 
+![Blueprint view](./hardware/blueprints/Wooden Cabinet Blueprint.webp)
+
 ---
 
 ## Folder Structure
